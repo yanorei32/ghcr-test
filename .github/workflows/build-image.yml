@@ -27,4 +27,7 @@ jobs:
         with:
           context: .
           platforms: linux/amd64
-          tags: ghcr.io/yanorei32/ghcr-test:latest
+          push: true
+          tags: |
+            ghcr.io/yanorei32/ghcr-test:latest
+
